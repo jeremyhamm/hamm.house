@@ -1,0 +1,15 @@
+/* Text */
+
+@import '../variables';
+
+a {
+  color: $blue;
+  &:hover {
+    color: $light-blue;
+  }
+}
+
+/* XS */
+@media (max-width: 576px) {
+
+}

@@ -1,0 +1,70 @@
+
+/* Color Scheme */
+
+// Typography
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+$font-family-sans-serif: "Titillium Web", sans-serif;
+$font-size-base: 1rem;
+$line-height-base: 1.6;
+
+// Colors
+$white: #ffffff;
+$body: #f8fafc;
+
+// Reds
+$dark-red: #a80e00;
+$red: #ca1e11;
+$light-red: #e6463a;
+
+// Oranges
+$dark-orange: #e5760d;
+$orange: #f6973d;
+$light-orange: #ffb167;
+
+// Yellows
+$dark-yellow: #9eaa11;
+$yellow: #c6d326;
+$light-yellow: #d9e352;
+
+// Greens
+$dark-green: #367001;
+$green: #4f8f16;
+$light-green: #6bae31;
+
+// Blue
+$dark-blue: #0c667a;
+$blue: #207a90;
+$light-blue: #3b889A;
+
+// Shadows
+$shadow: rgba(180,180,180,.5);
+$shadow-hover: rgba(180,180,180,.75);
+
+// Export
+:export {
+  reds: {
+    dark: $dark-red;
+    standard: $red;
+    light: $light-red;
+  };
+  oranges: {
+    dark: $dark-orange;
+    standard: $orange;
+    light: $light-orange;
+  };
+  yellows: {
+    dark: $dark-yellow;
+    standard: $yellow;
+    light: $light-yellow;
+  };
+  greens: {
+    dark: $dark-green;
+    standard: $green;
+    light: $light-green;
+  };
+  blues: {
+    dark: $dark-blue;
+    standard: $blue;
+    light: $light-blue;
+  }
+}

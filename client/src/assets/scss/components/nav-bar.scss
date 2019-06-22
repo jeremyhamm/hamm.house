@@ -1,0 +1,13 @@
+/* Navbar */
+
+@import '../variables';
+
+.navbar {
+  box-shadow: 0 2px 13px -2px $shadow;
+  background-color: $white;
+}
+
+/* XS */
+@media (max-width: 576px) {
+
+}

@@ -1,0 +1,23 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+// Components
+@import 'components/nav-bar';
+@import 'components/footer';
+@import 'components/text';
+@import 'components/icons';
+@import 'components/buttons';
+@import 'components/inputs';
+@import 'components/badges';
+@import 'components/cards';
+@import 'components/list-group';
+@import 'components/calendar';
+@import 'components/progress-bar';
+
+body {
+  font-family: $font-family-sans-serif;
+}

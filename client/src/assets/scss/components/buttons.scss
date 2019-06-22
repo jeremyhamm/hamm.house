@@ -1,0 +1,28 @@
+/* Buttons */
+
+@import '../variables';
+
+.btn.btn-primary {
+  background-color: $blue;
+  border-color: $blue;
+  &:hover, &:disabled {
+    border-color: $blue;
+  }
+}
+
+.btn.btn-outline-primary {
+  border-color: $blue;
+  color: $blue;
+  &:hover {
+    background-color: $white;
+  }
+  &:disabled {
+    border-color: $light-blue;
+    background-color: $white;
+  }
+}
+
+/* XS */
+@media (max-width: 576px) {
+
+}

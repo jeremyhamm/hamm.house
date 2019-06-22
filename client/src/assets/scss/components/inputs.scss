@@ -1,0 +1,19 @@
+/* Inputs */
+
+@import '../variables';
+
+.input-group {
+  .form-control {
+    background-color: $white;
+  }
+  .input-group-append {
+    .input-group-text {
+      background-color: $white;
+    }
+  }
+}
+
+/* XS */
+@media (max-width: 576px) {
+
+}
