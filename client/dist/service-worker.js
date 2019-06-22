@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.feb59f53bcec09549b7f8c59dde4f24b.js"
+  "/precache-manifest.e3abc866b81eaae6c2c0322924de83d7.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "weather-station"});

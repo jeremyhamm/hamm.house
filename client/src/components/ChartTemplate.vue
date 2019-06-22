@@ -135,6 +135,9 @@ export default {
           response => {
             const sortData = utils.sortData(response.data, this.data.property);
             const isAllZero = sortData.apiData.reduce((accumulator, currentValue) => parseFloat(accumulator) + parseFloat(currentValue)) === 0;
+            
+            console.log(isAllZero);
+            
             this.chartOptions.scales.yAxes[0].ticks.beginAtZero = isAllZero;
             this.chartData = this.setChartData(sortData);
             this.loaded = true;

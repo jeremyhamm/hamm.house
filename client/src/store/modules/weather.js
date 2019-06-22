@@ -42,9 +42,6 @@ const weather = {
     setCurrentWeather (state, data) {
       dayjs.extend(relativeTime);
       dayjs.extend(utc);
-      
-      console.log(data['atmospheric_pressure'].date.toLocaleString("en-US", {timeZone: "America/Los_Angeles"}).format('h:mA'));
-      
       state.currentWeather = {
         reportDate: dayjs.utc(data['atmospheric_pressure'].date).fromNow(),
         rainfallDate: dayjs().format('M/D/YY'),
